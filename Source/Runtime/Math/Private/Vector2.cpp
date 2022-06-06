@@ -14,6 +14,13 @@ std::string Vector2::ToString() const
 	return result;
 }
 
+std::string Vector2::ToString(const Vector2& InValue)
+{
+	char result[64];
+	std::snprintf(result, sizeof(result), "(%.3f, %.3f)", InValue.X, InValue.Y);
+	return result;
+}
+
 Vector2 Vector2::GetNormalize() const
 {
 	float squareSum = SizeSquared();

@@ -39,6 +39,7 @@ public:
 	FORCEINLINE constexpr float Dot(const Vector4& InVector) const;
 
 	std::string ToString() const;
+	static std::string ToString(const Vector4& InValue);
 
 	// 정적멤버변수 
 	static const Vector4 UnitX;

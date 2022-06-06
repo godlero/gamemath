@@ -39,6 +39,7 @@ public:
 	FORCEINLINE constexpr Vector2 ToCartesianCoordinate() const;
 
 	std::string ToString() const;
+	static std::string ToString(const Vector2& InValue);
 
 	// 정적멤버변수 
 	static const Vector2 UnitX;

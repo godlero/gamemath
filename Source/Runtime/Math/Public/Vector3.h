@@ -37,6 +37,7 @@ public:
 	FORCEINLINE constexpr Vector3 Cross(const Vector3& InVector) const;
 
 	std::string ToString() const;
+	static std::string ToString(const Vector3& InValue);
 
 
 	// 정적멤버변수 
